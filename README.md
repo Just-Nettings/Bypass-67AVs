@@ -1,5 +1,3 @@
-livecodeserver
-Copy
 # Memory-Moving Background Process with Ngrok Connection
 
 This C++ program demonstrates a technique to move itself to memory, start a new background process, and establish a connection to an ngrok tunnel. The code is designed to work on Windows systems.
@@ -10,54 +8,39 @@ This C++ program demonstrates a technique to move itself to memory, start a new 
 - `g++` compiler (part of GNU Compiler Collection) installed and properly configured
 
 # Usage
+To compile and run the program, you need to follow these steps:
 
-1. Clone or download the repository to your local machine.
 git clone https://github.com/Just-Nettings/Bypass-67AVs.git
+Create a new file using a text editor and copy the provided C++ code from the main.cpp file into the new file.
 
-2. Open a text editor and create a new file.
-gedit or nano or vim
+Save the file with a .cpp extension (e.g., main.cpp).
 
-3. Copy the provided C++ code into the new file.
-in the main.cpp
+Open a command prompt or PowerShell window.
 
-4. Save the file with a `.cpp` extension. For example, you can save it as `main.cpp`.
+Navigate to the directory where the main.cpp file is located using the cd command.
 
-
-5. Open a command prompt or PowerShell window.
+Compile the C++ code using the following command:
 
 
-6. Navigate to the directory where the `main.cpp` file is located using the `cd` command.
-
-
-7. Compile the C++ code using the following command:
-
-8. Start an ngrok http Tunnel (e-g ngrok http 80 or 443)
-   
-   ```shell
-   g++ -o main.exe main.cpp
+g++ -o main.exe main.cpp
 This command will generate an executable file named main.exe.
 
+Start an ngrok http tunnel. For example:
+
+
+ngrok http 80
 Run the compiled executable by typing its name and pressing Enter:
 
-shell
-Copy
+
 main.exe
 The program will execute and perform the following steps:
 
 Move itself to memory.
 Start a new background process named "AAAA".
 Connect the new process to the specified ngrok tunnel.
-Customize the code as needed:
+Please note the following important points:
 
-Modify the ngrokUrl variable to match the actual ngrok tunnel URL you want to connect to.
-Add any additional functionality or modifications based on your requirements.
-Important Notes
-Ensure that you exercise caution and use this code responsibly and in compliance with all applicable laws and regulations.
-The code assumes that you have the necessary dependencies and tools installed on your Windows system, such as g++.
-Make sure to modify the ngrokUrl variable in the code to match the actual ngrok tunnel URL you want to connect to.
-License
-This code is provided under the MIT License.
-
-Copy
-
-Feel free to use this updated README file in your project and modify it further if needed.
+Exercise caution and use this code responsibly and in compliance with applicable laws and regulations.
+Make sure you have the necessary dependencies and tools installed, such as the g++ compiler.
+Modify the ngrokUrl variable in the code to match the actual ngrok tunnel URL you want to connect to.
+The code provided in the repository is licensed under the MIT License, which allows you to use and modify it according to your needs.
