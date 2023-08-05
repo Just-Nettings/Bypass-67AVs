@@ -38,9 +38,3 @@ The program will execute and perform the following steps:
 Move itself to memory.
 Start a new background process named "AAAA".
 Connect the new process to the specified ngrok tunnel.
-Please note the following important points:
-
-Exercise caution and use this code responsibly and in compliance with applicable laws and regulations.
-Make sure you have the necessary dependencies and tools installed, such as the g++ compiler.
-Modify the ngrokUrl variable in the code to match the actual ngrok tunnel URL you want to connect to.
-The code provided in the repository is licensed under the MIT License, which allows you to use and modify it according to your needs.
